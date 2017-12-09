@@ -5,5 +5,4 @@ class HelloPageControllerTest < ActionDispatch::IntegrationTest
     get hello_page_hello_url
     assert_response :success
   end
-
 end
